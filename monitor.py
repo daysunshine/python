@@ -4,6 +4,8 @@
 #如不通，则开始进行计数，每次2s，当持续3次不通则通过微信进行报警
 #如检测到Oracle网络恢复，也会通过微信发送信息
 
+
+
 import threading
 import logging
 from models.weixin import WeiXin
