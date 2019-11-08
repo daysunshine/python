@@ -3,8 +3,7 @@
 #Oracle连通性检测timeout为2s，每2s判断一次目标Oracle网络是否连通
 #如不通，则开始进行计数，每次2s，当持续3次不通则通过微信进行报警
 #如检测到Oracle网络恢复，也会通过微信发送信息
-
-
+#新增加测试文字
 
 import threading
 import logging
